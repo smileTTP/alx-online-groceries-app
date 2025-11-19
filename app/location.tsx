@@ -30,7 +30,7 @@ export default function Location() {
                 <View className="items-center mt-4">
                 <TouchableOpacity className="bg-[#53B175] rounded-xl h-[67px] w-[353px] px-6 py-6">
                     <Link href={'/login'}>
-                        <Text className="text-lg text-white text-center font-medium ">Get Started</Text>
+                        <Text className="text-lg text-white text-center font-medium ">Submit</Text>
                     </Link>
                 </TouchableOpacity>
                 </View>
