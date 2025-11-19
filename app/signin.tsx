@@ -14,13 +14,15 @@ export default function Signin() {
             </View>
             <Text className="text-sm text-gray-400 font-medium text-center">Or connect with social media</Text>
             <View className="flex items-center gap-4">
-                <TouchableOpacity className="bg-[#5383EC] rounded-xl h-[67px] w-[353px] ">
+                <TouchableOpacity className="bg-[#5383EC] rounded-xl h-[67px] w-[353px] flex-row items-center justify-between px-4">
                 <FontAwesome name="google" size={24} color="white" />
                 <Text className="text-lg text-white font-medium ">Continue with Google</Text>
+                <View className="w-6" />
                 </TouchableOpacity>
-                <TouchableOpacity className="bg-[#4A66AC] rounded-xl h-[67px] w-[353px] ">
+                <TouchableOpacity className="bg-[#4A66AC] rounded-xl h-[67px] w-[353px] flex-row items-center justify-between px-4">
                 <FontAwesome name="facebook" size={24} color="white" />
                 <Text className="text-lg text-white  font-medium ">Continue with Facebook</Text>
+                <View className="w-6" />
                 </TouchableOpacity>
             </View>
         </View>
