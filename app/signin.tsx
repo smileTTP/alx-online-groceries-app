@@ -1,8 +1,10 @@
 import { Image, View, Text, TouchableOpacity, TextInput } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { Link } from "expo-router";
 
 export default function Signin() {
+
     return (
     <SafeAreaProvider>
         <SafeAreaView className="flex-1 bg-white">
@@ -11,6 +13,11 @@ export default function Signin() {
             <View className="px-4">
                 <Text className="text-3xl font-medium">Get your groceries</Text>
                 <Text className="text-3xl font-medium">with nectar</Text>
+            </View>
+            <View className="w-[364px] px-4">
+                <Link href={'/number'}>
+                <TextInput keyboardType="phone-pad" placeholder="BD +880"/> 
+                </Link>
             </View>
             <Text className="text-sm text-gray-400 font-medium text-center">Or connect with social media</Text>
             <View className="flex items-center gap-4">
