@@ -8,7 +8,9 @@ export default function Verification() {
     <SafeAreaProvider>
         <SafeAreaView className="flex-1 bg-white">
             <View className="flex-1 px-4 gap-4">
+            <Link href={'/number'}>
             <AntDesign name="left" size={24} color="black" className="mt-4 mb-8"/>
+            </Link>
             <Text className="text-3xl font-medium ">Enter your 4-digit code</Text>
             <Text className="text-base text-[#7C7C7C]">Code</Text>
             <TextInput keyboardType="phone-pad" placeholder="----"/> 

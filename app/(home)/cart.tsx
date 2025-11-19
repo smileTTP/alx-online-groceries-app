@@ -1,0 +1,12 @@
+import { View, Text, TextInput, Image, ScrollView, Dimensions, TouchableHighlight} from "react-native";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+const Cart = () => {
+    return (
+        <SafeAreaProvider>
+            <SafeAreaView>
+                
+            </SafeAreaView>
+        </SafeAreaProvider>
+    )
+}
+export default Cart;

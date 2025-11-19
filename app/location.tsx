@@ -8,7 +8,9 @@ export default function Location() {
     <SafeAreaProvider>
         <SafeAreaView className="flex-1 bg-white">
             <View className="px-4 gap-4">
+            <Link href={'/verification'}>
             <AntDesign name="left" size={24} color="black" className="mt-4 mb-8"/>
+            </Link>
             </View>
             <View className="items-center flex-1 gap-4">
             <Image source={require('@/assets/images/location.png')} className="mt-4 mb-8"/>
