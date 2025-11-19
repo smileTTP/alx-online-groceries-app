@@ -10,7 +10,8 @@ export default function Number() {
             <View className="flex-1 px-4 gap-4">
             <Link href={'/signin'}>
             <AntDesign name="left" size={24} color="black" className="mt-4 mb-8"/>
-            </Link>            <Text className="text-3xl font-medium ">Enter your mobile number</Text>
+            </Link>
+            <Text className="text-3xl font-medium ">Enter your mobile number</Text>
             <Text className="text-base text-[#7C7C7C]">Mobile Number</Text>
             <TextInput keyboardType="phone-pad" placeholder="BD +880"/> 
             <View className="absolute bottom-10 right-4 flex-row">
