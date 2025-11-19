@@ -12,7 +12,7 @@ export default function Verification() {
             <Text className="text-3xl font-medium ">Enter your 4-digit code</Text>
             <Text className="text-base text-[#7C7C7C]">Code</Text>
             <TextInput keyboardType="phone-pad" placeholder="----"/> 
-            <View className="absolute bottom-10 right-4 flex-row items-center">
+            <View className="absolute bottom-10 inset-x-4 flex-row justify-between items-center">
             <TouchableOpacity>
                 <Text className="text-[#53B175] text-lg font-medium mr-4">Resend Code</Text>
             </TouchableOpacity>
