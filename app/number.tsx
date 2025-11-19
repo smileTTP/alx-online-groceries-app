@@ -6,7 +6,7 @@ import { Link } from "expo-router";
 export default function Number() {
     return (
     <SafeAreaProvider>
-        <SafeAreaView className="flex-1">
+        <SafeAreaView className="flex-1 bg-white">
             <View className="flex-1 px-4 gap-4">
             <AntDesign name="left" size={24} color="black" className="mt-4 mb-8"/>
             <Text className="text-3xl font-medium ">Enter your mobile number</Text>

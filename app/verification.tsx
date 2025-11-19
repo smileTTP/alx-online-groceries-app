@@ -6,7 +6,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 export default function Verification() {
     return (
     <SafeAreaProvider>
-        <SafeAreaView className="flex-1">
+        <SafeAreaView className="flex-1 bg-white">
             <View className="flex-1 px-4 gap-4">
             <AntDesign name="left" size={24} color="black" className="mt-4 mb-8"/>
             <Text className="text-3xl font-medium ">Enter your 4-digit code</Text>
