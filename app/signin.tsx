@@ -1,0 +1,30 @@
+import { Image, View, Text, TouchableOpacity, TextInput } from "react-native";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+
+export default function Signin() {
+    return (
+    <SafeAreaProvider>
+        <SafeAreaView className="flex-1 bg-white">
+        <Image source={require('@/assets/images/groceries.png')} />
+        <View className="flex-1 justify-end pb-20 gap-4">
+            <View className="px-4">
+                <Text className="text-3xl font-medium">Get your groceries</Text>
+                <Text className="text-3xl font-medium">with nectar</Text>
+            </View>
+            <Text className="text-sm text-gray-400 font-medium text-center">Or connect with social media</Text>
+            <View className="flex items-center gap-4">
+                <TouchableOpacity className="bg-[#5383EC] rounded-xl h-[67px] w-[353px] ">
+                <FontAwesome name="google" size={24} color="white" />
+                <Text className="text-lg text-white font-medium ">Continue with Google</Text>
+                </TouchableOpacity>
+                <TouchableOpacity className="bg-[#4A66AC] rounded-xl h-[67px] w-[353px] ">
+                <FontAwesome name="facebook" size={24} color="white" />
+                <Text className="text-lg text-white  font-medium ">Continue with Facebook</Text>
+                </TouchableOpacity>
+            </View>
+        </View>
+        </SafeAreaView>
+    </SafeAreaProvider>
+    );
+}
