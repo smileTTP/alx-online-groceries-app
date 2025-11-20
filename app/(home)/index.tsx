@@ -1,5 +1,5 @@
 import Card from "@/components/common/card";
-import { View, Text, TextInput, Image, ScrollView, Dimensions, TouchableHighlight} from "react-native";
+import { View, Text, TextInput, Image, ScrollView } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { SAMPLE_DATA } from "@/constants/data";
 import Entypo from '@expo/vector-icons/Entypo';
