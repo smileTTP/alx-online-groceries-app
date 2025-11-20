@@ -10,7 +10,7 @@ const Card: React.FC<ProductProps> = ({ name, quantity, price, image, type, desc
             </View>
             <View className="mt-4">
                 <Text className="px-4 mt-4 font-bold text-lg">
-                Organic Bananas
+                {name}
                 </Text>
                 <Text className="px-4 text-sm font-medium">{quantity}, price</Text>
             </View>

@@ -17,11 +17,12 @@ const Home = () => {
                 </View>
             </View>
             <View className="px-4">
-            <View className="flex-row items-center justify-between p-4 px-4 mt-1 border-gray-100 border rounded-xl">
+            <View className="flex-row items-center justify-between px-4 p-2 border-gray-100 border rounded-xl h-[51px]">
                 <Feather name="search" size={24} color="gray" />
                 <TextInput keyboardType="default" className="w-[330px] flex-1" />
             </View>
             </View>
+            <View className="flex-1 mb-4">
             <ScrollView>
             <View className="mt-4 items-center">
                 <Image source={require('@/assets/images/banner.png')}/>
@@ -52,10 +53,9 @@ const Home = () => {
                 <Text className="text-sm font-medium text-green-600">See all</Text>
             </View>
             <ScrollView horizontal showsHorizontalScrollIndicator={false} className="mt-4">
-                <View className="align-center p-2 flex flex-row gap-4 px-4">
-                <View className="w-[248px] h-[105px] inset-x-4 flex-row justify-between items-center px-4 p-2"><Image source={require('@/assets/filters/pulses.png')} className="w-full h-full" resizeMode="contain"/><Text className="ml-4 text-lg">Pulses</Text></View>
-                <View className="w-[248px] h-[105px] inset-x-4 flex-row justify-between items-center px-4 p-2"><Image source={require('@/assets/filters/rice.png')} className="w-full h-full" resizeMode="contain"/><Text className="ml-4 text-lg">Rice</Text></View>
-                <View className="w-[248px] h-[105px] inset-x-4 flex-row justify-between items-center px-4 p-2"><Image source={require('@/assets/filters/beverages.png')} className="w-full h-full" resizeMode="contain"/><Text className="ml-4 text-lg">Beverages</Text></View>
+                <View className="align-center flex flex-row gap-4">
+                <View className="w-[248px] h-[105px] inset-x-4 flex-row justify-between items-center px-4 p-2"><Image source={require('@/assets/filters/pulses.png')} className="w-full h-full" resizeMode="contain"/><Text className="text-lg">Pulses</Text></View>
+                <View className="w-[248px] h-[105px] inset-x-4 flex-row justify-between items-center px-4 p-2"><Image source={require('@/assets/filters/rice.png')} className="w-full h-full" resizeMode="contain"/><Text className="text-lg">Rice</Text></View>
                 </View>
             </ScrollView>
             <View className="flex-row justify-center gap-4 mt-4">
@@ -64,6 +64,7 @@ const Home = () => {
             </View>
             </View>
             </ScrollView>
+            </View>
             </SafeAreaView>
         </SafeAreaProvider>
     )
