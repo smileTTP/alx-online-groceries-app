@@ -4,3 +4,4 @@ The goal of this project is to create an online groceries app using Expo with Na
 
 ### challenges
 - I experienced the app crashing multiple times on the Expo Go android app while working on the project which slowed down the coding progress.
+- Some problem with text-color not working sometimes.
