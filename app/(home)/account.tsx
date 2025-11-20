@@ -3,7 +3,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 const Account = () => {
     return (
         <SafeAreaProvider>
-            <SafeAreaView>
+            <SafeAreaView className="flex-1 bg-white">
                 
             </SafeAreaView>
         </SafeAreaProvider>
