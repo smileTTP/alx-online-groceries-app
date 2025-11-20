@@ -1,4 +1,4 @@
-import { AntDesign, EvilIcons, FontAwesome } from "@expo/vector-icons";
+import { AntDesign, Feather, FontAwesome } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 
 const HomeRootLayout = () => {
@@ -24,7 +24,7 @@ const HomeRootLayout = () => {
     <Tabs.Screen name="favorite" options={{
         title: 'Favorite',
         headerShown: true,
-        tabBarIcon: ({ color }) => <EvilIcons name="heart" size={24} color={color} />
+        tabBarIcon: ({ color }) => <Feather name="heart" size={24} color={color} />
     }} />
     <Tabs.Screen name="account" options={{
         title: 'Account',
