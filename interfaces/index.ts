@@ -10,3 +10,12 @@ export interface ProductProps {
 export interface ProductsList {
     products: ProductProps[]
 }
+
+export interface FitlersProps {
+    name: string,
+    image: number
+}
+
+export interface FiltersList {
+    filters: FitlersProps[]
+}

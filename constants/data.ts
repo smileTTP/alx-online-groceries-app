@@ -1,5 +1,5 @@
-import { ProductProps } from "@/interfaces";
-import { APPLEJUICE, BANANAS, BEEFBONE, BELLPEPPER, BROILERCHICKEN, COCACOLA, DIETCOKE, EGGCHICKENRED, EGGCHICKENWHITE, EGGNOODLES, EGGPASTA, GINGER, MAYONNAISE, ORANGEJUICE, PEPSI, REDAPPLE, ROUNDCUTEGGNOODLES, SPRITE } from ".";
+import { FitlersProps, ProductProps } from "@/interfaces";
+import { APPLEJUICE, BAKERY, BANANAS, BEEFBONE, BELLPEPPER, BEVERAGES, BROILERCHICKEN, COCACOLA, DAIRYEGGS, DIETCOKE, EGGCHICKENRED, EGGCHICKENWHITE, EGGNOODLES, EGGPASTA, GINGER, MAYONNAISE, MEATFISH, OIL, ORANGEJUICE, PEPSI, PULSES, REDAPPLE, RICE, ROUNDCUTEGGNOODLES, SPRITE, VEGGIESFRUITS } from "@/constants/index";
 
 const SAMPLE_DATA: ProductProps[] = [
     {
@@ -148,15 +148,39 @@ const SAMPLE_DATA: ProductProps[] = [
     },
 ]
 
-const FILTERS: string [] = [
-    "Fresh Fruits & Vegetable",
-    "Cooking Oil & Ghee",
-    "Meat & Fish",
-    "Bakery & Snacks",
-    "Dairy & Eggs",
-    "Beverages",
-    "Pulses",
-    "Rice",
+const FILTERS: FitlersProps[] = [
+    {
+        name: "Fresh Fruits & Vegetable",
+        image: VEGGIESFRUITS
+    },
+    {
+        name: "Cooking Oil & Ghee",
+        image: OIL
+    },
+    {
+        name: "Meat & Fish",
+        image: MEATFISH
+    },
+    {
+        name: "Bakery & Snacks",
+        image: BAKERY
+    },
+    {
+        name: "Dairy & Eggs",
+        image: DAIRYEGGS
+    },
+    {
+        name: "Beverages",
+        image: BEVERAGES
+    },
+    {
+        name: "Pulses",
+        image: PULSES
+    },
+    {
+        name: "Rice",
+        image: RICE
+    }
 ];
 
 export { SAMPLE_DATA, FILTERS };
