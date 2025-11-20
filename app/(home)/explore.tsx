@@ -1,8 +1,10 @@
 import ProductsCard from "@/components/common/productsCard";
 import { FILTERS } from "@/constants/data";
 import { Feather } from "@expo/vector-icons";
-import { View, Text, TextInput, Image, ScrollView, Dimensions, TouchableHighlight} from "react-native";
+import { View, Text, TextInput, Image, ScrollView, Dimensions, TouchableHighlight, TouchableOpacity} from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { Link } from "expo-router";
 
 const Explore = () => {
     return (
@@ -16,6 +18,9 @@ const Explore = () => {
             <View className="mt-4 flex-row items-center justify-between px-4 p-2 border-gray-100 border rounded-xl h-[51px]">
                 <Feather name="search" size={24} color="gray" />
                 <TextInput keyboardType="default" className="w-[330px] flex-1" />
+                <TouchableOpacity>
+                    <Link href={'/'}><FontAwesome name="filter" size={24} color="#D3D3D3" /></Link>
+                </TouchableOpacity>
             </View>
             </View>
             <View className="flex-1 mb-4">
