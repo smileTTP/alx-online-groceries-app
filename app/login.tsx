@@ -23,11 +23,11 @@ export default function Login() {
             <View className="mt-4 grid grid-cols-2 gap-y-4">
             <View>
                 <Text className="text-[#7C7C7C] font-medium">Email</Text>
-                <TextInput keyboardType="email-address"  />
+                <TextInput keyboardType="email-address" className="border border-gray-200 rounded-lg" />
             </View>
             <View>
                 <Text className="text-[#7C7C7C] font-medium">Password</Text>
-                <View className="flex-row items-center justify-between border p-2 mt-1">
+                <View className="flex-row items-center justify-between border p-2 mt-1 border-gray-200 rounded-lg">
                 <TextInput keyboardType="default" className="w-[330px] flex-1" />
                 <FontAwesome name="eye-slash" size={24} color="#7C7C7C" />
                 </View>
