@@ -4,9 +4,11 @@ import { Feather } from "@expo/vector-icons";
 import { View, Text, TextInput, Image, ScrollView, Dimensions, TouchableHighlight, TouchableOpacity} from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import { Link } from "expo-router";
+import { Link, useRouter } from "expo-router";
 
 const Explore = () => {
+
+    
     return (
         <SafeAreaProvider>
             <SafeAreaView className="flex-1 bg-white gap-4">
@@ -19,7 +21,7 @@ const Explore = () => {
                 <Feather name="search" size={24} color="gray" />
                 <TextInput keyboardType="default" className="w-[330px] flex-1" />
                 <TouchableOpacity>
-                    <Link href={'/'}><FontAwesome name="filter" size={24} color="#D3D3D3" /></Link>
+                    <FontAwesome name="filter" size={24} color="#D3D3D3" />
                 </TouchableOpacity>
             </View>
             </View>
@@ -28,7 +30,9 @@ const Explore = () => {
             <View className="flex flex-row flex-wrap p-2">
                 {FILTERS.map((filter, index) => (
                     <View key={index} className="w-1/2 p-1">
-                    <ProductsCard name={filter.name} image={filter.image}/>
+                        <TouchableOpacity>
+                            <ProductsCard name={filter.name} image={filter.image}/>
+                        </TouchableOpacity>
                     </View>
                 ))}
             </View>

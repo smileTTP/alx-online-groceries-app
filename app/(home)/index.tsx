@@ -1,5 +1,5 @@
 import Card from "@/components/common/card";
-import { View, Text, TextInput, Image, ScrollView } from "react-native";
+import { View, Text, TextInput, Image, ScrollView, TouchableOpacity } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { SAMPLE_DATA } from "@/constants/data";
 import Entypo from '@expo/vector-icons/Entypo';
@@ -33,8 +33,12 @@ const Home = () => {
                 <Text className="text-sm font-medium text-green-600">See all</Text>
             </View>
             <View className="flex-row justify-center gap-4 mt-4">
+                <TouchableOpacity>
                 <Card name={SAMPLE_DATA[0].name} quantity={SAMPLE_DATA[0].quantity} price={SAMPLE_DATA[0].price} image={SAMPLE_DATA[0].image} type={SAMPLE_DATA[0].type} description={SAMPLE_DATA[0].description} />
+                </TouchableOpacity>
+                <TouchableOpacity>
                 <Card name={SAMPLE_DATA[0].name} quantity={SAMPLE_DATA[1].quantity} price={SAMPLE_DATA[1].price} image={SAMPLE_DATA[1].image} type={SAMPLE_DATA[1].type} description={SAMPLE_DATA[1].description} />
+                </TouchableOpacity>
             </View>
             </View>
             <View className="mt-4">
@@ -43,8 +47,12 @@ const Home = () => {
                 <Text className="text-sm font-medium text-green-600">See all</Text>
             </View>
             <View className="flex-row justify-center gap-4 mt-4">
+            <TouchableOpacity>
                 <Card name={SAMPLE_DATA[2].name} quantity={SAMPLE_DATA[2].quantity} price={SAMPLE_DATA[2].price} image={SAMPLE_DATA[2].image} type={SAMPLE_DATA[2].type} description={SAMPLE_DATA[2].description} />
+            </TouchableOpacity>
+            <TouchableOpacity>
                 <Card name={SAMPLE_DATA[3].name} quantity={SAMPLE_DATA[3].quantity} price={SAMPLE_DATA[3].price} image={SAMPLE_DATA[3].image} type={SAMPLE_DATA[3].type} description={SAMPLE_DATA[3].description} />
+            </TouchableOpacity>
             </View>
             </View>
             <View className="mt-4">
@@ -59,8 +67,12 @@ const Home = () => {
                 </View>
             </ScrollView>
             <View className="flex-row justify-center gap-4 mt-4">
-                <Card name={SAMPLE_DATA[4].name} quantity={SAMPLE_DATA[4].quantity} price={SAMPLE_DATA[4].price} image={SAMPLE_DATA[4].image} type={SAMPLE_DATA[4].type} description={SAMPLE_DATA[4].description} />
-                <Card name={SAMPLE_DATA[5].name} quantity={SAMPLE_DATA[5].quantity} price={SAMPLE_DATA[5].price} image={SAMPLE_DATA[5].image} type={SAMPLE_DATA[5].type} description={SAMPLE_DATA[5].description} />
+                <TouchableOpacity>
+                    <Card name={SAMPLE_DATA[4].name} quantity={SAMPLE_DATA[4].quantity} price={SAMPLE_DATA[4].price} image={SAMPLE_DATA[4].image} type={SAMPLE_DATA[4].type} description={SAMPLE_DATA[4].description} />
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Card name={SAMPLE_DATA[5].name} quantity={SAMPLE_DATA[5].quantity} price={SAMPLE_DATA[5].price} image={SAMPLE_DATA[5].image} type={SAMPLE_DATA[5].type} description={SAMPLE_DATA[5].description} />
+                </TouchableOpacity>
             </View>
             </View>
             </ScrollView>
