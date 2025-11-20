@@ -8,6 +8,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: BANANAS,
         type: "Fresh Fruits & Vegetable",
+        description: "Apples are nutritious. Apples may be good for weight loss. apples may be good for your heart. As part of a healtful and varied diet."
     },
     {
         name: "Red Apple",
@@ -15,6 +16,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: REDAPPLE,
         type: "Fresh Fruits & Vegetable",
+        description: ""
     },
     {
         name: "Red Bell Pepper",
@@ -22,6 +24,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: BELLPEPPER,
         type: "Fresh Fruits & Vegetable",
+        description: ""
     },
     {
         name: "Ginger",
@@ -29,6 +32,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: GINGER,
         type: "Fresh Fruits & Vegetable",
+        description: ""
     },
     {
         name: "Beef Bone",
@@ -36,6 +40,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: BEEFBONE,
         type: "Meat & Fish",
+        description: ""
     },
     {
         name: "Broiler Chicken",
@@ -43,6 +48,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: BROILERCHICKEN,
         type: "Meat & Fish",
+        description: ""
     },
     {
         name: "Diet Coke",
@@ -50,6 +56,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 1.99,
         image: DIETCOKE,
         type: "Beverages",
+        description: ""
     },
     {
         name: "Sprite Can",
@@ -57,6 +64,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 1.50,
         image: SPRITE,
         type: "Beverages",
+        description: ""
     },
     {
         name: "Apple & Grape Juice",
@@ -64,6 +72,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 15.99,
         image: APPLEJUICE,
         type: "Beverages",
+        description: ""
     },
     {
         name: "Orange Juice",
@@ -71,6 +80,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 15.99,
         image: ORANGEJUICE,
         type: "Beverages",
+        description: ""
     },
     {
         name: "Coca Cola Can",
@@ -78,6 +88,7 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 4.99,
         image: COCACOLA,
         type: "Beverages",
+        description: ""
     },
     {
         name: "Pepsi Can",
@@ -85,48 +96,55 @@ const SAMPLE_DATA: ProductProps[] = [
         price: 1.99,
         image: PEPSI,
         type: "Beverages",
+        description: ""
     },
     {
         name: "Egg Chicken Red",
         quantity: "4pcs",
         price: 1.99,
         image: EGGCHICKENRED,
-        type: "Dairy & Eggs"
+        type: "Dairy & Eggs",
+        description: ""
     },
     {
         name: "Egg Chicken White",
         quantity: "180g",
         price: 1.50,
         image: EGGCHICKENWHITE,
-        type: "Dairy & Eggs"
+        type: "Dairy & Eggs",
+        description: ""
     },
     {
         name: "Egg Pasta",
         quantity: "30gm",
         price: 15.99,
         image: EGGPASTA,
-        type: "Dairy & Eggs"
+        type: "Dairy & Eggs",
+        description: ""
     },
     {
         name: "Egg Noodles",
         quantity: "2L",
         price: 15.99,
         image: EGGNOODLES,
-        type: "Dairy & Eggs"
+        type: "Dairy & Eggs",
+        description: ""
     },
     {
         name: "Mayonnais Eggless",
         quantity: "325ml",
         price: 4.99,
         image: MAYONNAISE,
-        type: "Dairy & Eggs"
+        type: "Dairy & Eggs",
+        description: ""
     },
     {
         name: "Egg Noodles",
         quantity: "330ml",
         price: 4.99,
         image: ROUNDCUTEGGNOODLES,
-        type: "Dairy & Eggs"
+        type: "Dairy & Eggs",
+        description: ""
     },
 ]
 

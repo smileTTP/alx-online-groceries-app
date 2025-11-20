@@ -2,7 +2,7 @@ import { ProductProps } from "@/interfaces";
 import { Text, View, Image, TouchableOpacity } from "react-native";
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 
-const Card: React.FC<ProductProps> = ({ name, quantity, price, image, type }) => {
+const Card: React.FC<ProductProps> = ({ name, quantity, price, image, type, description }) => {
     return (
         <View className="w-[173.3249969482422px] h-[248.50999450683594px] border border-gray-200 rounded-lg">
             <View className="mt-4 items-center">

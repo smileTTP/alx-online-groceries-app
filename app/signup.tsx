@@ -30,7 +30,7 @@ export default function Signup() {
             </View>
             <View>
                 <Text className="text-[#7C7C7C] font-medium">Password</Text>
-                <View className="flex-row items-center justify-between border p-2 mt-1 border-gray-200 rounded-lg">
+                <View className="flex-row items-center justify-between p-4 mt-1 border border-gray-200 rounded-lg">
                 <TextInput keyboardType="default" className="w-[330px] flex-1" />
                 <FontAwesome name="eye-slash" size={24} color="#7C7C7C" />
                 </View>

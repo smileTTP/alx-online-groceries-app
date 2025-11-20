@@ -4,6 +4,7 @@ export interface ProductProps {
     price: number,
     image: number,
     type: string,
+    description: string,
 }
 
 export interface ProductsList {
