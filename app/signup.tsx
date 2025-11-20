@@ -8,15 +8,15 @@ export default function Signup() {
     <SafeAreaProvider>
         <SafeAreaView className="flex-1 bg-white">
         <View className="px-4 gap-4">
-        <Link href={'/login'}>
+            <Link href={'/login'}>
             <AntDesign name="left" size={24} color="black" className="mt-4 mb-8"/>
-        </Link>
-        <View className="mt-4 items-center">
+            </Link>
+            <View className="mt-4 items-center">
             <Image source={require('@/assets/images/carrot.png')} className="h-[55px] w-[47px] mt-4"/>
-        </View>
+            </View>
             <View className="mt-5 px-4">
-                <Text className="text-3xl font-bold mb-1">Sign Up</Text>
-                <Text className="text-[rgb(124,124,124)] font-medium text-base mb-1">Enter your credentials to continue</Text>
+            <Text className="text-3xl font-bold mb-1">Sign Up</Text>
+            <Text className="text-[rgb(124,124,124)] font-medium text-base mb-1">Enter your credentials to continue</Text>
             </View>
             <View className="px-4">
             <View className="mt-4 grid grid-cols-2 gap-y-4">
@@ -53,7 +53,7 @@ export default function Signup() {
                     </Link>
                 </TouchableOpacity>
             </Text>
-        </View>
+            </View>
             </View>
         </View>
         </SafeAreaView>
