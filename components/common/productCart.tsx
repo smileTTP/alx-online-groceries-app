@@ -8,7 +8,7 @@ const ProductCart: React.FC<ProductProps> = ({ name, quantity, price, image, typ
     <View className="w-[363.7275390625] h-[120px] border border-white rounded-lg p-3 flex-row justify-between items-center">
     <View className="flex-row items-center">
         <View className="mr-4">
-            <Image source={image} resizeMode="contain" className="w-[80px] h-[80px] rounded-md"/>
+            <Image source={image} resizeMode="contain" className="w-[80px] h-[80px]"/>
         </View>
         <View className="h-full justify-between py-1"> 
             <View className="items-start"> 
