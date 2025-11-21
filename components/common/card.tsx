@@ -6,7 +6,7 @@ const Card: React.FC<ProductProps> = ({ name, quantity, price, image, type, desc
     return (
         <View className="w-[173.3249969482422px] h-[248.50999450683594px] border border-gray-200 rounded-lg">
             <View className="mt-4 items-center">
-                <Image source={image} className="w-[99.88697814941445px] h-[79.43215179443389px]" resizeMode="cover"/>
+                <Image source={image} className="w-[99.88697814941445px] h-[79.43215179443389px]" resizeMode="contain"/>
             </View>
             <View className="mt-4">
                 <Text className="px-4 mt-4 font-bold text-lg">
