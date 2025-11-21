@@ -2,6 +2,7 @@
 
 The goal of this project is to create an online groceries app using Expo with Nativewind following the [figma file](https://www.figma.com/design/FbIovZFuJAJ5Xo4gyTTBQj/Online-Groceries-App-UI--Community-?node-id=1-2&t=uMPSmVpasRSCoLZ0-1)
 
+Here's a [short video demo](https://x.com/ibtissam7_/status/1991837022504505584?s=20) of the app 
 ### Process
 1. I installed Expo Go app on my phone and logged in after creating an account.
 2. I made sure I had the latest stable version of node on my computer
