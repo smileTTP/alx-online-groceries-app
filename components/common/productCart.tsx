@@ -1,5 +1,5 @@
 import { ProductProps } from "@/interfaces"
-import { View, Image, Text } from "react-native"
+import { View, Image, Text, TouchableOpacity } from "react-native"
 import Entypo from '@expo/vector-icons/Entypo';
 import AntDesign from '@expo/vector-icons/AntDesign';
 
@@ -16,9 +16,9 @@ const ProductCart: React.FC<ProductProps> = ({ name, quantity, price, image, typ
                 <Text className="font-medium text-base text-gray-400 px-4">{quantity}, Price</Text>
             </View>
             <View className="flex-row items-center">
-                <Entypo name="minus" size={24} color="#7C7C7C" />
+                <TouchableOpacity><Entypo name="minus" size={24} color="#7C7C7C" /></TouchableOpacity>
                 <Text className="text-xl font-medium mx-3">1</Text>
-                <Entypo name="plus" size={24} color="#00B36F" />
+                <TouchableOpacity className="border border-gray-100 rounded-lg"><Entypo name="plus" size={24} color="#00B36F" /></TouchableOpacity>
             </View>
         </View>
     </View>
