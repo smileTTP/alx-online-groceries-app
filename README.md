@@ -27,9 +27,12 @@ And scanned the QR code on Expo Go android app
 npm run reset-project
 ```
 7. I installed Nativewind v4 following [the documentation](https://www.nativewind.dev/docs/getting-started/installation)
-
-8. I created the layouts with the home page tab navigation, added assets, created the common component that i will reuse during the project, and interfaces and constants folders.
-9. Started working on the project following the [figma design](https://www.figma.com/design/FbIovZFuJAJ5Xo4gyTTBQj/Online-Groceries-App-UI--Community-?node-id=1-2&t=uMPSmVpasRSCoLZ0-1)
+8. Installed expo vectors
+```bash
+npm install @expo/vector-icons
+```
+9. I created the layouts with the home page tab navigation, added assets, created the common component that i will reuse during the project, and interfaces and constants folders.
+10. Started working on the project following the [figma design](https://www.figma.com/design/FbIovZFuJAJ5Xo4gyTTBQj/Online-Groceries-App-UI--Community-?node-id=1-2&t=uMPSmVpasRSCoLZ0-1)
 
 
 ### Challenges
