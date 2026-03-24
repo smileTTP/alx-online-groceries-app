@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-import { Text, View } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-=======
 import { Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import AntDesign from '@expo/vector-icons/AntDesign';
 import { Link } from "expo-router";
->>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
 
 export default function Number() {
     return (
     <SafeAreaProvider>
-<<<<<<< HEAD
-        <SafeAreaView>
-        
-=======
         <SafeAreaView className="flex-1 bg-white">
             <View className="flex-1 px-4 gap-4">
             <Link href={'/signin'}>
@@ -31,7 +22,6 @@ export default function Number() {
             </TouchableOpacity>
             </View>
             </View>
->>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
         </SafeAreaView>
     </SafeAreaProvider>
     );

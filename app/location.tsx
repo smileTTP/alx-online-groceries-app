@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-import { Text, View } from "react-native";
-=======
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { Link } from "expo-router";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
->>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function Location() {
     return (
-    <SafeAreaProvider>
-<<<<<<< HEAD
-        <SafeAreaView>
-        
-=======
+    <SafeAreaProvider>        
         <SafeAreaView className="flex-1 bg-white">
             <View className="px-4 gap-4">
             <Link href={'/verification'}>
@@ -43,7 +35,6 @@ export default function Location() {
                 </TouchableOpacity>
                 </View>
             </View>
->>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
         </SafeAreaView>
     </SafeAreaProvider>
     );

@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-import { Text, View } from "react-native";
-=======
 import { AntDesign, FontAwesome } from "@expo/vector-icons";
 import { Link } from "expo-router";
 import { Image, View, Text, TouchableOpacity, TextInput } from "react-native";
->>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function Signup() {
     return (
     <SafeAreaProvider>
-<<<<<<< HEAD
-        <SafeAreaView>
-        
-=======
         <SafeAreaView className="flex-1 bg-white">
         <View className="px-4 gap-4">
             <Link href={'/login'}>
@@ -64,7 +56,6 @@ export default function Signup() {
             </View>
             </View>
         </View>
->>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
         </SafeAreaView>
     </SafeAreaProvider>
     );
