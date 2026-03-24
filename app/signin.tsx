@@ -1,8 +1,15 @@
 import { Image, View, Text, TouchableOpacity, TextInput } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+<<<<<<< HEAD
 
 export default function Signin() {
+=======
+import { Link } from "expo-router";
+
+export default function Signin() {
+
+>>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
     return (
     <SafeAreaProvider>
         <SafeAreaView className="flex-1 bg-white">
@@ -12,6 +19,7 @@ export default function Signin() {
                 <Text className="text-3xl font-medium">Get your groceries</Text>
                 <Text className="text-3xl font-medium">with nectar</Text>
             </View>
+<<<<<<< HEAD
             <Text className="text-sm text-gray-400 font-medium text-center">Or connect with social media</Text>
             <View className="flex items-center gap-4">
                 <TouchableOpacity className="bg-[#5383EC] rounded-xl h-[67px] w-[353px] ">
@@ -21,6 +29,24 @@ export default function Signin() {
                 <TouchableOpacity className="bg-[#4A66AC] rounded-xl h-[67px] w-[353px] ">
                 <FontAwesome name="facebook" size={24} color="white" />
                 <Text className="text-lg text-white  font-medium ">Continue with Facebook</Text>
+=======
+            <View className="w-[364px] px-4">
+                <Link href={'/number'}>
+                <TextInput keyboardType="phone-pad" placeholder="BD +880"/> 
+                </Link>
+            </View>
+            <Text className="text-sm text-gray-400 font-medium text-center">Or connect with social media</Text>
+            <View className="flex items-center gap-4">
+                <TouchableOpacity className="bg-[#5383EC] rounded-xl h-[67px] w-[353px] flex-row items-center justify-between px-4">
+                <FontAwesome name="google" size={24} color="white" />
+                <Text className="text-lg text-white font-medium ">Continue with Google</Text>
+                <View className="w-6" />
+                </TouchableOpacity>
+                <TouchableOpacity className="bg-[#4A66AC] rounded-xl h-[67px] w-[353px] flex-row items-center justify-between px-4">
+                <FontAwesome name="facebook" size={24} color="white" />
+                <Text className="text-lg text-white  font-medium ">Continue with Facebook</Text>
+                <View className="w-6" />
+>>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
                 </TouchableOpacity>
             </View>
         </View>

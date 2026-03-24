@@ -5,7 +5,11 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 export default function Index() {
   return (
     <SafeAreaProvider>
+<<<<<<< HEAD
       <SafeAreaView className="flex-1">
+=======
+      <SafeAreaView className="flex-1 bg-white">
+>>>>>>> 1a14678307d2ff72f94f332988bb174823267c46
         <ImageBackground source={require('@/assets/images/backgroundimage.png')} resizeMode="cover" className="flex-1">
         <View className="flex-1 justify-end pb-20 items-center gap-4">
           <Image source={require('@/assets/images/whitecarrot.png')} className="w-[48px] h-[56px]"/>

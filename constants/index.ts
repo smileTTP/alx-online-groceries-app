@@ -1,0 +1,31 @@
+const BANANAS = require('@/assets/products/bananas.png')
+const REDAPPLE = require('@/assets/products/apples.png')
+const BELLPEPPER = require('@/assets/products/bellPepper.png')
+const GINGER = require('@/assets/products/Ginger.png')
+const BEEFBONE = require('@/assets/products/beefBone.png')
+const BROILERCHICKEN = require('@/assets/products/broilerChicken.png')
+const DIETCOKE = require('@/assets/products/dietCoke.png')
+const SPRITE = require('@/assets/products/sprite.png')
+const APPLEJUICE = require('@/assets/products/apple-grape-juice.png')
+const ORANGEJUICE = require('@/assets/products/orange-juice.png')
+const COCACOLA = require('@/assets/products/coke.png')
+const PEPSI = require('@/assets/products/pepsi.png')
+const EGGCHICKENRED = require('@/assets/products/eggs-chicken-red.png')
+const EGGCHICKENWHITE = require('@/assets/products/eggs-chicken-white.png')
+const EGGPASTA = require('@/assets/products/egg-pasta.png')
+const EGGNOODLES = require('@/assets/products/egg-noodle.png')
+const MAYONNAISE = require('@/assets/products/Mayonnaise-Eggless.png')
+const ROUNDCUTEGGNOODLES = require('@/assets/products/roundcut-egg-noodles.png')
+
+export { BANANAS, REDAPPLE, BELLPEPPER, GINGER, BEEFBONE, BROILERCHICKEN, DIETCOKE, SPRITE, APPLEJUICE, ORANGEJUICE, COCACOLA, PEPSI, EGGCHICKENRED, EGGCHICKENWHITE, EGGPASTA, EGGNOODLES, MAYONNAISE, ROUNDCUTEGGNOODLES };
+
+const OIL = require('@/assets/filters/oil.png')
+const MEATFISH = require('@/assets/filters/meat-fish.png')
+const BAKERY = require('@/assets/filters/bakery.png')
+const BEVERAGES = require('@/assets/filters/beverages.png')
+const DAIRYEGGS = require('@/assets/filters/dairy-eggs.png')
+const PULSES = require('@/assets/filters/pulses.png')
+const RICE = require('@/assets/filters/rice.png')
+const VEGGIESFRUITS = require('@/assets/filters/veggies-fruits.png')
+
+export { OIL, MEATFISH, BAKERY, BEVERAGES, DAIRYEGGS, PULSES, RICE, VEGGIESFRUITS }
